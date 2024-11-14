@@ -1,6 +1,6 @@
 "use server"
 
-import { signIn } from "next-auth/react";
+import { signIn } from "@/auth";
 
 export async function OneTapSignIn(credential?: string) {
     "use server"

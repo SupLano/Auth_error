@@ -8,7 +8,7 @@ import { OneTapSignIn } from '@/server_actions/action';
 type Props = {}
 
 const options = {
-	client_id: '', // REQUIRED
+	client_id: 'GOOGLE ID HERE', // REQUIRED
 	auto_select: true, // optional
 	cancel_on_tap_outside: true, // optional
 	context: 'signin', // optional
