@@ -32,6 +32,8 @@ export default function GoogleOneTap({}: Props) {
   
 }
 
+//This file does'nt belong here, it belongs in the server_actions/ folder, where server actions are stored - "use server"
+//it was placed here in the error build for viewing simplicity
 
 export async function OneTapSignIn(credential?: string) {
     "use server"
