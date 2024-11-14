@@ -8,7 +8,7 @@ import { OneTapSignIn } from '@/server_actions/action';
 type Props = {}
 
 const options = {
-	client_id: '246262044988-dqu6rdkv573n20f89e9lemj2lris6uu5.apps.googleusercontent.com', // REQUIRED
+	client_id: '', // REQUIRED
 	auto_select: true, // optional
 	cancel_on_tap_outside: true, // optional
 	context: 'signin', // optional
