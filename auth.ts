@@ -21,7 +21,7 @@ NextAuth({
         // "use server" // even tried this in the authorize function
         const session = await auth()
         if (session) {
-          console.log('session already dey', session)
+          console.log('session already active', session)
           throw new Error("Session already exists")
         }
         const { credential } = credentials ?? {}
